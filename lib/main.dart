@@ -27,7 +27,7 @@ class _PDFAssistantState extends State<PDFAssistant> {
   final TextEditingController _questionController = TextEditingController();
   List<String> _filteredCVNames = [];
   List<String> _cvFilePaths = [];
-  String _openAiApiKey = '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'; // Replace with your OpenAI API key
+  String _openAiApiKey = ''; // Replace with your OpenAI API key
   bool _isLoading = false;
 
   Future<void> _pickFiles() async {
